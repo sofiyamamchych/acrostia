@@ -1,6 +1,13 @@
 body {
 	width: 100%;
 	margin-left: 0;
+	margin-top: 0;
+}
+
+.header {
+	z-index: 2;
+	position: absolute;
+	top: 11px;
 }
 
 .hero__carousel{
@@ -34,7 +41,3 @@ body {
 	width: 100%;
 }
 
-/*.slick-slide img {
-	display: block;
-	width: 100%;
-}*/
