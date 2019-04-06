@@ -1,15 +1,19 @@
 /* header */
 
 .header {
-    /*background-color: #0e88f3;*/
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     /*height: 80px;*/
     z-index: 3;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(210, 231, 251);
-    padding-top: 8px;
+    position: absolute;
+    font-size: 18px;
+    font-family: Lato;
+    color: rgb(255, 255, 255);
 }
+
 
 
 .header ul {
@@ -17,7 +21,6 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    /*background-color: #0e88f3;*/
 }
 
 .header li a {
@@ -29,7 +32,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-    color: #9addfc;
+    background-color: #74c7d5;
+    border-radius: 0 0 4px 4px;
 }
 
 .header .header__logo {
@@ -123,22 +127,21 @@
     top: 0;
 }
 
-/* 48em = 768px */
 
 @media (min-width: 800px) {
     .header li {
         float: left;
     }
     .header li a {
-        padding: 0;
-        margin-right: 34px;
+        margin-right: 14px;
+        padding: 20px 8px 4px 8px;
     }
     .header .menu {
-       clear: none;
-    /*  float: right;*/
+        clear: none;
+        float: right;
         max-height: none;
-        padding-left: 64px;
-        padding-top: 19px;
+/*        padding-left: 64px;
+        padding-top: 19px;*/
     }
     .header .menu-icon {
        display: none;

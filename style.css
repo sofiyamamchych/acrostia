@@ -4,11 +4,11 @@ body {
 	margin-top: 0;
 }
 
-.header {
-	z-index: 2;
-	position: absolute;
-	top: 11px;
+@font-face {
+  font-family: Lato;
+  src: url(Lato-Regular.ttf);
 }
+
 
 .hero__carousel{
 	display: flex;
