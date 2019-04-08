@@ -24,8 +24,7 @@ body {
 
 .hero__carousel_prev, .hero__carousel_next{
 	font-size: 32px;
-	color: red;
-	z-index: 3;
+	z-index: 2;
 	position: relative;
 }
 
