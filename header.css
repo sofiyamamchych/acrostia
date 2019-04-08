@@ -147,16 +147,21 @@
     }
     .header li a {
        /* margin-right: 14px;*/
-        padding: 38px 24px 13px 25px;
+       padding: 38px 14px 8px 5px;
+        
     }
     .header .menu {
         clear: none;
         float: right;
         max-height: none;
-/*        padding-left: 64px;
-        padding-top: 19px;*/
     }
     .header .menu-icon {
        display: none;
+    }
+}
+
+@media (min-width: 1005px){
+    .header li a {
+        padding: 38px 24px 13px 25px;
     }
 }
