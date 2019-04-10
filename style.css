@@ -26,6 +26,7 @@ body {
 	font-size: 32px;
 	z-index: 2;
 	position: relative;
+	cursor: pointer;
 }
 
 .hero__carousel_prev{
@@ -47,9 +48,7 @@ body {
 
 .hero__headline{
 	position: absolute;
-	top: 50%;
 	z-index: 3;
-	margin-left: 46%;
 }
 
 .services{
