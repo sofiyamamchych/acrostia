@@ -40,3 +40,58 @@ body {
 	width: 100%;
 }
 
+.slick-dots li button::before{
+		display: none;
+	}
+
+
+.hero__headline{
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	margin-left: 46%;
+}
+
+.services{
+	background-color: red;
+}
+
+
+@media (min-width: 800px){
+	.slick-dots li button::before{
+		display: block;
+	}
+
+	.slick-dots {
+	bottom: 90px;
+	}
+
+	.slick-dots li button:before{
+		color: transparent;
+		padding: 2px;
+		background-color: white;
+		border-radius: 23px;
+		opacity: 0.7;
+	}
+
+	.slick-dots li.slick-active button::before {
+		color: transparent;
+		background-color: #74c7d5;
+	}
+
+	.slick-dots li button::before {
+		width: 16px;
+		height: 16px;
+		content: '';
+		text-align: center;
+		opacity: .5;
+	}
+
+	.slick-dots li {
+		margin: 0 20px;
+	}
+
+	.slick-dots li.slick-active button::before {
+	opacity: 1;
+	}
+}
