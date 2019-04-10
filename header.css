@@ -3,9 +3,7 @@
 .header {
     width: 70%;
     margin-left: 15%;
-   /* padding-top: 36px;*/
-    /*height: 80px;*/
-    z-index: 3;
+    z-index: 7;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(210, 231, 251);
@@ -14,8 +12,6 @@
     font-family: Lato;
     color: rgb(255, 255, 255);
 }
-
-
 
 .header ul {
     margin: 0;

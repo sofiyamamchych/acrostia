@@ -6,9 +6,19 @@ body {
 
 @font-face {
   font-family: Lato;
-  src: url(Lato-Regular.ttf);
+  src: url(fonts/Lato-Regular.ttf);
 }
 
+@font-face {
+  font-family: Lato-Light;
+  src: url(fonts/Lato-Light.ttf);
+}
+
+
+@font-face {
+  font-family: Lato-Heavy;
+  src: url(fonts/Lato-Heavy.ttf);
+}
 
 .hero__carousel{
 	display: flex;
@@ -20,21 +30,6 @@ body {
 .hero__carousel__main{
 	width: 100%;
 	
-}
-
-.hero__carousel_prev, .hero__carousel_next{
-	font-size: 32px;
-	z-index: 2;
-	position: relative;
-	cursor: pointer;
-}
-
-.hero__carousel_prev{
-	left: 90px;
-}
-
-.hero__carousel_next{
-	left: -90px;
 }
 
 .slick-slide img{
@@ -49,6 +44,32 @@ body {
 .hero__headline{
 	position: absolute;
 	z-index: 3;
+	display: flex;
+}
+
+.hero__headline__left {
+	font-size: 30px;
+    font-family: Lato-Light;
+  	color: rgb(116, 199, 213);
+  	line-height: 0.967;
+  	text-align: right;
+  	width: 50%;
+}
+
+.hero__headline__right{
+	font-size: 80px;
+    font-family: Lato-Heavy;
+    color: rgb(116, 199, 213);
+    line-height: 1;
+  	text-align: right;
+  	letter-spacing: -5px;
+  	line-height: 0.8;
+  	margin-right: 10px;
+}
+
+.hero__headline:hover{
+	opacity: 0.7;
+	cursor: default;
 }
 
 .services{
@@ -57,12 +78,27 @@ body {
 
 
 @media (min-width: 800px){
+	.hero__carousel_prev, .hero__carousel_next{
+		font-size: 32px;
+		z-index: 5;
+		position: relative;
+		cursor: pointer; 
+	}
+
+	.hero__carousel_prev{
+		left: 90px;
+	}
+
+	.hero__carousel_next{
+		left: -90px;
+	}
+
 	.slick-dots li button::before{
 		display: block;
 	}
 
 	.slick-dots {
-	bottom: 90px;
+		bottom: 90px;
 	}
 
 	.slick-dots li button:before{
@@ -91,6 +127,33 @@ body {
 	}
 
 	.slick-dots li.slick-active button::before {
-	opacity: 1;
+		opacity: 1;
 	}
+	
+	.hero__headline{
+		background-color: rgba(255,255,255,0.4);
+		padding: 26px 0 26px 0px;
+		border-radius: 4px;
+		width: 50%;
+	}
+
+}
+
+@media (min-width: 1005px){
+	.hero__headline__left {
+	  	line-height: 0.967;
+	  	text-align: right;
+	  	width: 50%;
+	  	font-size: 60px;
+	}
+
+	.hero__headline__right{
+		font-size: 130px;
+	  	text-align: right;
+	  	letter-spacing: -5px;
+	  	line-height: 0.8;
+	  	margin-right: 10px;
+	}
+
+
 }
