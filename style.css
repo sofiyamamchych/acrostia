@@ -20,6 +20,54 @@ body {
   src: url(fonts/Lato-Heavy.ttf);
 }
 
+h1 {
+	font-size: 60px;
+	font-family: Lato-Light;
+	color: rgb(255, 255, 255);
+	line-height: 0.967;
+	text-transform: uppercase;
+	font-weight: 200;
+	text-align: center;
+}
+
+h4{
+	font-size: 20px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	/*line-height: 2.9;*/
+	text-align: center;
+	font-weight: 200;
+}
+
+.h3__pink{
+	color: #ec9da2;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.933;
+	text-align: center;
+	font-weight: 200;
+}
+
+
+p{
+	font-size: 14px;
+	font-family: Lato;
+	color: rgb(255, 204, 207);
+	line-height: 1.714;
+	text-align: center;
+}
+
+h1:hover{
+	opacity: 0.8;
+	cursor: default;
+}
+
 .hero__carousel{
 	display: flex;
 	width: 100%;
@@ -77,11 +125,33 @@ body {
 	margin-top: -51px;
 	min-height: 200px;
 	padding-top: 67px;
+	padding-bottom: 70px;
 }
 
 .services__header{
-	background-color: green;
 	margin-top: -46px;
+}
+
+.services__text {
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+.services__examples{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services__example {
+    margin: 0 5%;
+    background-color: #c45158;
+    height: 500px;
+}
+
+.services__example p{
+	font-weight: bold;
 }
 
 
@@ -144,7 +214,11 @@ body {
 		border-radius: 4px;
 		width: 50%;
 	}
-
+	
+	.services__examples{
+		flex-direction: row;
+		margin: 0 30%;
+	}
 }
 
 @media (min-width: 1005px){

@@ -75,10 +75,15 @@
 
 
 @media (min-width: 800px) {
-    .header li a:hover, .header .menu-btn:hover {
+    .header li a:hover {
         background-color: #74c7d5;
         border-radius: 0 0 4px 4px;
     }
+
+    .services__header li a:hover{
+       background-color: #df5c64;
+    }
+
     .header .menu-btn:checked ~ .menu {
         background-color: transparent;
     }
