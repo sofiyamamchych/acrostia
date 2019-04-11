@@ -57,7 +57,7 @@
 .header .menu {
     clear: both;
     max-height: 0;
-    transition: max-height .2s ease-out;
+    /*transition: max-height .2s ease-out;*/
 }
 
 /* menu icon */
@@ -66,14 +66,14 @@
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 3px 12px;
+    padding: 5px 8px;
     position: relative;
     user-select: none;
-    top: 53px;
+    top: 35px;
     content: url("img/menu-icon.png");
 }
 
-.header .menu-icon .navicon {
+/*.header .menu-icon .navicon {
     background: #fff;
     display: block;
     height: 2px;
@@ -99,7 +99,7 @@
 
 .header .menu-icon .navicon:after {
    top: -5px;
-}
+}*/
 
 /* menu btn */
 
