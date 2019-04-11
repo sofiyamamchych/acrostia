@@ -73,7 +73,15 @@ body {
 }
 
 .services{
-	background-color: red;
+	background-color: #b24a50;
+	margin-top: -51px;
+	min-height: 200px;
+	padding-top: 67px;
+}
+
+.services__header{
+	background-color: green;
+	margin-top: -46px;
 }
 
 
@@ -157,3 +165,5 @@ body {
 
 
 }
+
+
