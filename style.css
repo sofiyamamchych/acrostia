@@ -172,7 +172,7 @@ h1:hover{
 	width: 62px;
 }
 
-.services__exampleimg:hover{
+.services__exampleimg:hover, .about__btn:hover{
 	opacity: 0.7;
 }
 
@@ -226,18 +226,49 @@ h1:hover{
     padding: 1px;
 }
 
+.about a{
+	text-decoration: none;
+}
+
 .about__text{
 	margin-top: 105px;
+	width: 70%;
+	margin-left: 15%;
 }
 
 .about__btn{
 	text-align: center;
+	font-size: 25px;
+	font-family: Lato;
+ 	color: rgb(255, 255, 255);
+  	text-transform: uppercase;
+  	line-height: 2.32;
+  	background-color: #a1ca6c;
+	width: 250px;
+	margin-left: calc(50% - 138px);
+	border-radius: 4px;
+	padding: 0 0 0 46px;
+}
+
+.about__btn::after {
+	content: "";
+	width: 0; 
+	height: 0; 
+	border-left: 23px solid transparent;
+	border-right: 23px solid transparent;
+	border-top: 31px solid #a1ca6c;
+	position: relative;
+	top: 75px;
+	right: 105px; 
 }
 
 .about__team{
 	display: flex;
 	justify-content: center;
+	margin-top: 50px;
 }
+
+
 
 @media (min-width: 800px){
 
