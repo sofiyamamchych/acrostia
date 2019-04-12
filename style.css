@@ -154,6 +154,21 @@ h1:hover{
 	font-weight: bold;
 }
 
+.services__exampleimg {
+    background-color: white;
+    width: 50px;
+    padding: 31px 37px 9px 41px;
+    border-radius: 50%;
+}
+
+.serv-wrap {
+	background-color: #c45158;;
+	width: 108px; 
+	padding: 3px 22px 3px 2px;
+	margin-left: 15%;
+	border-radius: 50%;
+	border: 2px solid white;
+}
 
 @media (min-width: 800px){
 	.hero__carousel_prev, .hero__carousel_next{
