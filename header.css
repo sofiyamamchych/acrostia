@@ -84,6 +84,10 @@
        background-color: #df5c64;
     }
 
+    .about__header li a:hover{
+       background-color: #91778e;
+    }
+
     .header .menu-btn:checked ~ .menu {
         background-color: transparent;
     }
@@ -159,7 +163,7 @@
 
 @media screen and (max-height: 450px) {
     .overlay a {
-        font-size: 20px
+        font-size: 20px;
     }
     .overlay .closebtn {
         font-size: 40px;

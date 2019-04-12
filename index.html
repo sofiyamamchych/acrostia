@@ -15,8 +15,8 @@
 <body>
 	<header class="header">
         <a href="#" class="header__logo"><img src="img/logo.png" alt=""></a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn" onclick="openNav()"></label>
+        <input class="menu-btn" type="checkbox" />
+        <label class="menu-icon" onclick="openNav()"></label>
         <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
@@ -45,8 +45,8 @@
 	<div class="services">
 		<header class="header services__header">
 	        <a href="#" class="header__logo"><img src="img/logo.png" alt="" > </a>
-	        <input class="menu-btn" type="checkbox" id="menu-btn" />
-	        <label class="menu-icon" for="menu-btn" onclick="openNav()"></label>
+	        <input class="menu-btn" type="checkbox" />
+	        <label class="menu-icon" onclick="openNav()"></label>
 	        <ul class="menu">
 	            <li><a href="#">Home</a></li>
 	            <li><a href="#">Services</a></li>
@@ -109,6 +109,33 @@
 		</div>
 
 	</div>
+	<div class="about">
+		<header class="header about__header">
+        	<a href="#" class="header__logo"><img src="img/logo.png" alt=""></a>
+        	<input class="menu-btn" type="checkbox"  />
+        	<label class="menu-icon" onclick="openNav()"></label>
+        	<ul class="menu">
+	            <li><a href="#">Home</a></li>
+	            <li><a href="#">Services</a></li>
+	            <li><a href="#">About</a></li>
+	            <li><a href="#">Work</a></li>
+	            <li><a href="#">Contacts</a></li>
+
+        	</ul>
+    	</header>
+    	<div class="about__text">
+    		<h1>Who we are & what we do</h1>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nam, ex! Fugiat, pariatur voluptatem quibusdam perferendis sapiente sit rem eveniet ducimus quas omnis voluptatum vitae quo, nobis quasi similique neque maxime, distinctio dicta nulla nesciunt.</p>
+    		<a href="#"><div class="about__btn">Meet the team</div></a>
+    	</div>
+    	<div class="about__team">
+    		<div class="about__teammember">Member1</div>
+    		<div class="about__teammember">Member2</div>
+    		<div class="about__teammember">Member3</div>
+    		<div class="about__teammember">Member4</div>
+    	</div>
+		
+	</div>
 	
 
 
@@ -120,11 +147,11 @@
 	<div id="myNav" class="overlay">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<div class="overlay-content">
-			<li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contacts</a></li>
+			<a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Work</a>
+            <a href="#">Contacts</a>
 	    </div>
 	</div>	
 	<script src="app.js"></script>

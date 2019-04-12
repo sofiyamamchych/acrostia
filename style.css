@@ -220,6 +220,25 @@ h1:hover{
 	opacity: 0.7;
 }
 
+.about{
+	background-color: #665464;
+	margin-top: -41px;
+    padding: 1px;
+}
+
+.about__text{
+	margin-top: 105px;
+}
+
+.about__btn{
+	text-align: center;
+}
+
+.about__team{
+	display: flex;
+	justify-content: center;
+}
+
 @media (min-width: 800px){
 
 	h3{
