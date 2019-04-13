@@ -242,24 +242,23 @@ h1:hover{
 	font-family: Lato;
  	color: rgb(255, 255, 255);
   	text-transform: uppercase;
-  	line-height: 2.32;
   	background-color: #a1ca6c;
-	width: 250px;
+	width: 243px;
 	margin-left: calc(50% - 138px);
 	border-radius: 4px;
-	padding: 0 0 0 46px;
+	padding: 9px 0px 11px 33px;
 }
 
 .about__btn::after {
 	content: "";
 	width: 0; 
 	height: 0; 
-	border-left: 23px solid transparent;
-	border-right: 23px solid transparent;
-	border-top: 31px solid #a1ca6c;
+	border-left: 17px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 16px solid #a1ca6c;
 	position: relative;
-	top: 75px;
-	right: 105px; 
+	top: 57px;
+	right: 116px; 
 }
 
 .about__team{
