@@ -265,8 +265,12 @@ h1:hover{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
+	flex-direction: column;
 }
 
+.about__teammember{
+	margin: 10px;
+}
 
 
 @media (min-width: 800px){
@@ -340,6 +344,10 @@ h1:hover{
 	}
 	.services__example{
 		width: 14%;
+	}
+
+	.about__team{
+		flex-direction: row;
 	}
 }
 
