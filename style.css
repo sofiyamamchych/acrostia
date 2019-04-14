@@ -172,7 +172,7 @@ h1:hover{
 	width: 62px;
 }
 
-.services__exampleimg:hover, .about__btn:hover, .teammember_photo:hover{
+.services__exampleimg:hover, .about__btn:hover{
 	opacity: 0.7;
 }
 
@@ -270,6 +270,8 @@ h1:hover{
 
 .about__teammember{
 	margin: 10px;
+	background-color: #5c4b5a;
+	padding: 15px 21px 23px 21px;
 }
 
 .teammember_photo {
@@ -287,7 +289,70 @@ h1:hover{
 	width: 207px;
 }
 
+.teammember__name {
+	font-size: 25px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 2.32;
+	opacity: 0.8;
+}
 
+.teammember__position {
+	font-size: 14px;
+	font-family: Lato;
+	color: rgb(161, 202, 108);
+ }
+
+/*.about__teammember a:hover{
+	opacity: 0.5;
+}*/
+.social__icon {
+	background-color: #a1859e;
+	border-radius: 50%;
+	/*box-sizing: border-box;
+	width: 31px;
+	height: 31px;
+	overflow: hidden;*/
+}
+
+.social__fb img{
+	width: 11px;
+}
+
+.social__fb{
+	padding: 14px 9px 0px 11px;
+}
+
+.social__tw img{
+	width: 21px;
+	position: relative;
+	top: -1px;
+}
+
+.social__tw{
+	padding: 14px 2px 0px 8px;
+}
+
+.social__gplus img{
+	width: 21px;
+	position: relative;
+	top: 4px;
+}
+
+.social__gplus{
+	padding: 14px 2px 0px 8px;
+}
+
+.social__ln img{
+	width: 21px;
+	position: relative;
+	top: 0;
+}
+
+.social__ln {
+	padding: 14px 2px 0px 8px;
+}
 
 @media (min-width: 800px){
 
