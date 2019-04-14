@@ -87,7 +87,11 @@
     .about__header li a:hover{
        background-color: #91778e;
     }
-
+    
+    .about__header{
+        margin-top: -1px;
+    }
+    
     .header .menu-btn:checked ~ .menu {
         background-color: transparent;
     }

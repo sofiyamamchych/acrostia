@@ -28,6 +28,7 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 200;
 	text-align: center;
+	letter-spacing: -1.2px;
 }
 
 h3 {
@@ -223,7 +224,9 @@ h1:hover{
 .about{
 	background-color: #665464;
 	margin-top: -41px;
-    padding: 1px;
+    padding-top: 1px;
+    padding-bottom: 105px;
+
 }
 
 .about a{
@@ -231,9 +234,18 @@ h1:hover{
 }
 
 .about__text{
-	margin-top: 105px;
+	margin-top: 192px;
 	width: 70%;
 	margin-left: 15%;
+}
+
+.about__text h1{
+	margin-bottom: 0;
+}
+
+.about__text p{
+	margin-top: 24px;
+	margin-bottom: 53px;
 }
 
 .about__btn{
@@ -264,14 +276,17 @@ h1:hover{
 .about__team{
 	display: flex;
 	justify-content: center;
-	margin-top: 50px;
+	margin-top: 60px;
 	flex-direction: column;
 }
 
 .about__teammember{
 	margin: 10px;
 	background-color: #5c4b5a;
-	padding: 15px 21px 23px 21px;
+	padding: 43px 21px 30px 21px;
+	/*width: 100%;*/
+	border-radius: 6px;
+
 }
 
 .teammember_photo {
@@ -283,10 +298,15 @@ h1:hover{
 	height: 161px;
 	overflow: hidden;
 	border: 4px solid #a1859e;
+	margin-left: calc(50% - 79px);
 }
 
 .teammember_photo img{
 	width: 207px;
+}
+
+.teammember_photo img:hover{
+	opacity: 0.3;
 }
 
 .teammember__name {
@@ -294,26 +314,34 @@ h1:hover{
 	font-family: Lato;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
-	line-height: 2.32;
+	/*line-height: 2.32;*/
 	opacity: 0.8;
+	text-align: center;
+	margin-top: 23px;
+	margin-bottom: 7px;
 }
 
 .teammember__position {
 	font-size: 14px;
 	font-family: Lato;
 	color: rgb(161, 202, 108);
+	text-align: center;
+	margin-bottom: 41px;
  }
 
 /*.about__teammember a:hover{
 	opacity: 0.5;
 }*/
+
+.about__team__social{
+	margin-top: 16px;
+	text-align: center;
+}
+
 .social__icon {
 	background-color: #a1859e;
 	border-radius: 50%;
-	/*box-sizing: border-box;
-	width: 31px;
-	height: 31px;
-	overflow: hidden;*/
+	padding: 14px 2px 0px 8px;
 }
 
 .social__fb img{
@@ -330,18 +358,10 @@ h1:hover{
 	top: -1px;
 }
 
-.social__tw{
-	padding: 14px 2px 0px 8px;
-}
-
 .social__gplus img{
 	width: 21px;
 	position: relative;
 	top: 4px;
-}
-
-.social__gplus{
-	padding: 14px 2px 0px 8px;
 }
 
 .social__ln img{
@@ -350,9 +370,6 @@ h1:hover{
 	top: 0;
 }
 
-.social__ln {
-	padding: 14px 2px 0px 8px;
-}
 
 @media (min-width: 800px){
 
@@ -430,6 +447,9 @@ h1:hover{
 	.about__team{
 		flex-direction: row;
 	}
+	.about__teammember{
+		width: 17%;
+	}
 }
 
 @media (min-width: 1005px){
@@ -447,7 +467,9 @@ h1:hover{
 	  	line-height: 0.8;
 	  	margin-right: 10px;
 	}
-
+	.about__teammember{
+		width: 14%;
+	}
 
 }
 
@@ -455,5 +477,9 @@ h1:hover{
 	h3{
 		font-size: 30px;
 	}
+	.social__icon {
+		margin: 0 10px 0 5px;
+	}
+
 }
 
