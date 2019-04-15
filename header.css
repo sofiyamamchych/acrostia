@@ -91,7 +91,11 @@
     .about__header{
         margin-top: -1px;
     }
-    
+
+    .work__header li a:hover{
+        background-color: #a1ca6c;
+    }
+
     .header .menu-btn:checked ~ .menu {
         background-color: transparent;
     }

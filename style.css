@@ -305,16 +305,11 @@ h1:hover{
 	width: 207px;
 }
 
-/*.teammember_photo img:hover{
-	opacity: 0.9;
-}
-*/
 .teammember__name {
 	font-size: 25px;
 	font-family: Lato;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
-	/*line-height: 2.32;*/
 	opacity: 0.8;
 	text-align: center;
 	margin-top: 23px;
@@ -329,10 +324,6 @@ h1:hover{
 	text-align: center;
 	margin-bottom: 41px;
  }
-
-/*.about__teammember a:hover{
-	opacity: 0.5;
-}*/
 
 .about__team__social{
 	margin-top: 16px;
@@ -369,6 +360,11 @@ h1:hover{
 	width: 21px;
 	position: relative;
 	top: 0;
+}
+
+.work{
+	background-color: #81a256;
+	min-height: 200px;
 }
 
 
