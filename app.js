@@ -19,3 +19,16 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 
 }
+
+function redImg(container) {
+    // console.log('container: ', container);
+    var photo = $(container).find('.teammember__photo__img');
+    console.log('src: ', photo.attr('src'));
+    photo.attr('src', 'img/team-member-active.svg');
+}
+
+function normalImg(container) {
+    var photo = $(container).find('.teammember__photo__img');
+    console.log('src: ', photo.attr('src'));
+    photo.attr('src', 'img/team-member.svg'); 
+}
