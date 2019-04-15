@@ -364,7 +364,11 @@ h1:hover{
 
 .work{
 	background-color: #81a256;
-	min-height: 400px;
+	min-height: 800px;
+}
+
+.work a{
+	text-decoration: none;
 }
 
 .work__text{
@@ -386,59 +390,79 @@ h1:hover{
 	justify-content: space-between;
 	width: 70%;
 	margin-left: 15%;
+	margin-top: 75px;
 }
 
-.gallery__header__filters{
-	display: flex;
+.gallery__header__name {
+	font-size: 20px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	padding: 9px 0 0 0;
 }
-
-
 
 .dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+	background-color: #81a256;
+	/*  color: white;
+	padding: 16px;
+	font-size: 16px;*/
+	border: none;
+	cursor: pointer;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right: 0;
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+/*	color: black;
+	padding: 12px 16px;*/
+	text-decoration: none;
+	display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+/*.dropdown-content a:hover {
+	opacity: 0.8;
+}*/
 
 .dropdown:hover .dropdown-content {
-  display: block;
+	display: block;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+	opacity: 0.5;
 }
 
+.dropbtn img{
+	width: 36px;
+}
 
 .fullscreen {
 	display: none;
 }
 
+.gallery__header__filter {
+	font-size: 16px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	background-color: #f5c149;
+	padding: 10px;
+}
+
+.gallery__header__filter:hover{
+	opacity: 0.7;
+}
 
 
 
@@ -528,6 +552,12 @@ h1:hover{
 	.fullscreen {
 		display: block;
 	}
+	.gallery__header__filter{
+		margin-left: 10px;
+		display: inline-block;
+		border-radius: 4px;
+	}
+
 }
 
 @media (min-width: 1005px){
