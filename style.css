@@ -472,8 +472,12 @@ h1:hover{
 /*	height: 40vw;*/
 	display: inline-block;
 	margin: 2px 2px 2px 2px;
-	background-color: red;
+	background-color: white;
 	width:  71vw;
+	font-size: 14px;
+  	font-family: Lato;
+  	color: rgb(114, 114, 114);
+  	text-transform: uppercase;
 }
 
 
@@ -493,6 +497,24 @@ h1:hover{
 .gallery__item__img7{
 	background-image: url(img/gallery-img7.png);
 }
+
+.gallery__item__text{
+	margin-top: 41vw;
+	padding: 12px 0 12px 0;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+/*.gallery__item__text:before{
+	content: "";
+	width: 0; 
+	height: 0; 
+	border-left: 17px solid transparent; 
+	border-right: 17px solid transparent; 
+	border-bottom: 24px solid white;
+	position: relative;
+	top:  -7.4vw;
+}*/
 
 @media (min-width: 800px){
 
@@ -604,6 +626,13 @@ h1:hover{
 		width: 34vw;
 		height: 19vw;
 	}
+	.gallery__item__text{
+		margin-top: 19vw;
+	}
+
+	.gallery__item__text:before{
+		top:  -4.4vw;
+	}
 
 
 }
@@ -639,6 +668,11 @@ h1:hover{
 		width: 16vw;
 		height: 9vw;
 	}
+
+	.gallery__item__text{
+		margin-top: 9vw;
+	}
+
 
 }
 
