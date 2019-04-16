@@ -469,19 +469,28 @@ h1:hover{
 }
 
 .gallery__item{
+/*	height: 40vw;*/
+	display: inline-block;
+	margin: 2px 2px 2px 2px;
+	background-color: red;
+	width:  71vw;
+}
+
+
+.gallery__item__img{
 	display: inline-block;
 	background-image: url(img/gallery-img8.png);
     position: relative;
     float: left;
     width:  71vw;
-    height: 40vw;
+    height: 41vw;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2px 2px 2px 2px;
+    
 }
 
-.gallery__item7{
+.gallery__item__img7{
 	background-image: url(img/gallery-img7.png);
 }
 
@@ -583,13 +592,19 @@ h1:hover{
 		opacity: 1;
 	}
 
-	.gallery__item{
-		width: 34vw;
-		height: 19vw;
-	}
 	.gallery{
 		min-height: 107vh;
 	}
+
+	.gallery__item{
+		width: 34vw;
+	}
+
+	.gallery__item__img{
+		width: 34vw;
+		height: 19vw;
+	}
+
 
 }
 
@@ -612,8 +627,16 @@ h1:hover{
 		width: 14%;
 	}
 
-	.gallery__item {
-		width: 17vw;
+}
+
+@media (min-width: 1080px){
+
+	.gallery__item{
+		width: 16vw;
+	}
+
+	.gallery__item__img {
+		width: 16vw;
 		height: 9vw;
 	}
 
