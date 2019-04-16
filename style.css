@@ -364,7 +364,7 @@ h1:hover{
 
 .work{
 	background-color: #81a256;
-	min-height: 800px;
+	/*min-height: 800px;*/
 }
 
 .work a{
@@ -385,11 +385,16 @@ h1:hover{
 	color: white;
 }
 
+.gallery{
+	width: 70%;
+	margin-left: 15%;
+	min-height: 342vh;
+}
 .gallery__header{
 	display: flex;
 	justify-content: space-between;
-	width: 70%;
-	margin-left: 15%;
+/*	width: 70%;
+	margin-left: 15%;*/
 	margin-top: 75px;
 }
 
@@ -397,7 +402,6 @@ h1:hover{
 	font-size: 20px;
 	font-family: Lato;
 	color: rgb(255, 255, 255);
-	font-weight: bold;
 	padding: 9px 0 0 0;
 }
 
@@ -464,7 +468,22 @@ h1:hover{
 	opacity: 0.7;
 }
 
+.gallery__item{
+	display: inline-block;
+	background-image: url(img/gallery-img8.png);
+    position: relative;
+    float: left;
+    width:  71vw;
+    height: 40vw;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2px 2px 2px 2px;
+}
 
+.gallery__item7{
+	background-image: url(img/gallery-img7.png);
+}
 
 @media (min-width: 800px){
 
@@ -556,6 +575,20 @@ h1:hover{
 		margin-left: 10px;
 		display: inline-block;
 		border-radius: 4px;
+		background-color: transparent;
+	}
+
+	.gallery__header__filter:hover{
+		background-color: #f5c149;
+		opacity: 1;
+	}
+
+	.gallery__item{
+		width: 34vw;
+		height: 19vw;
+	}
+	.gallery{
+		min-height: 107vh;
 	}
 
 }
@@ -577,6 +610,11 @@ h1:hover{
 	}
 	.about__teammember{
 		width: 14%;
+	}
+
+	.gallery__item {
+		width: 17vw;
+		height: 9vw;
 	}
 
 }
