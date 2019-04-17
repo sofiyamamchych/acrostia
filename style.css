@@ -511,20 +511,22 @@ h1:hover{
 	padding: 16px 0 17px 0;
 	text-align: center;
 	background-color: #eeeeee;
+	height: 17px;
+	padding: 0px 0 34px 0;
 }
 
-/*.gallery__item__text:before{
+.gallery__item__text:before{
 	content: "";
 	width: 0; 
 	height: 0; 
-	border-left: 17px solid transparent; 
-	border-right: 17px solid transparent; 
-	border-bottom: 36px solid #eeeeee;
+	border-left: 18px solid transparent; 
+	border-right: 18px solid transparent; 
+	border-bottom: 19px solid #eeeeee;
 	position: relative;
-	top: -16.4vw;
-	left: 45%;
+	top: -35px;
+	left: 0;
 }
-*/
+
 @media (min-width: 800px){
 
 	h3{
@@ -639,10 +641,7 @@ h1:hover{
 		margin-top: 19vw;
 	}
 
-	.gallery__item__text:before{
-		top:  -4.4vw;
-	}
-
+	
 
 }
 
@@ -712,6 +711,9 @@ h1:hover{
 		.gallery__item{
 		margin: 2px 8px 14px 9px;
 	}
+/*	.gallery__item__text:before{
+		top:  -3.2vw;
+	}*/
 
 /*	.gallery {
     	min-height: 144vh;
