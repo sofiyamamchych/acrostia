@@ -565,6 +565,11 @@ h1:hover{
 	left: 0;
 }
 
+.contacts{
+	background-color: #75b4aa;
+	min-height: 200px;
+}
+
 @media (min-width: 640px){
 	.gallery__item__img::after {
 		padding-top: calc(50% - 20vw);

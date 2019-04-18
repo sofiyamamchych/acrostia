@@ -96,6 +96,10 @@
         background-color: #a1ca6c;
     }
 
+    .contacts__header li a:hover{
+        background-color: #82c8bd;
+    }
+
     .header .menu-btn:checked ~ .menu {
         background-color: transparent;
     }
