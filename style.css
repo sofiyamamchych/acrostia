@@ -56,7 +56,6 @@ h4{
 	margin-bottom: 0;
 }
 
-
 p{
 	font-size: 14px;
 	font-family: Lato;
@@ -570,6 +569,63 @@ h1:hover{
 	min-height: 200px;
 }
 
+.contacts__text {
+	width: 70%;
+	margin-left: 15%;
+}
+
+.contacts__text h1{
+	margin: 0;
+	padding-top: 150px;
+}
+
+.contacts__text p{
+	color: white;
+}
+
+.contacts__ways{
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts__ways h3 {
+	text-transform: none;
+	font-size: 30px;
+	margin: 0; 
+}
+
+.contacts__ways h4 {
+	color: rgb(192, 223, 218);
+	font-size: 20px;
+	margin: 0; 
+}
+
+.contacts__ways__addresswrap{
+	display: flex;
+	justify-content: space-between;
+}
+.contacts__ways__address{
+	width: 70%;
+	margin-left: 15%;	
+}
+
+
+
+
+.contacts__ways p {
+	text-align: left;
+	line-height: 1;
+	color: white;
+}
+
+.highlighted {
+	color: #d0efea;
+}
+
+.separated{
+	margin-top: 100px;
+}
+
 @media (min-width: 640px){
 	.gallery__item__img::after {
 		padding-top: calc(50% - 20vw);
@@ -690,9 +746,19 @@ h1:hover{
 		padding-top: calc(50% - 11vw);
 		padding-left: calc(50% - 4vw);
 	}
-	
+	.contacts__ways{
+		flex-direction: row;
+	}
+	.contacts__ways__address{
+		width: 50%;
+		margin-left: 0;
+	}
+	.contacts__ways__contactform{
+		width: 50%;
+	}
 
 }
+
 
 @media (min-width: 1005px){
 	.hero__headline__left {
@@ -711,6 +777,9 @@ h1:hover{
 	}
 	.about__teammember{
 		width: 14%;
+	}
+	.contacts__ways h4 {
+		font-size: 20px;
 	}
 
 }
