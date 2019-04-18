@@ -630,11 +630,11 @@ h1:hover{
 	}*/
 
 	.gallery__item{
-		width: 34vw;
+		width: 33.5vw;
 	}
 
 	.gallery__item__img{
-		width: 34vw;
+		width: 33.5vw;
 		height: 19vw;
 	}
 	.gallery__item__text{
@@ -669,13 +669,13 @@ h1:hover{
 @media (min-width: 1080px){
 
 	.gallery__item{
-		width: 16.2vw;
+		width: 16vw;
 		margin: 2px 8px 14px 2px;
 
 	}
 
 	.gallery__item__img {
-		width: 16.2vw;
+		width: 16vw;
 		height: 12.5vw;
 	}
 
