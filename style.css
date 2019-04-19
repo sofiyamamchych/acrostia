@@ -586,6 +586,8 @@ h1:hover{
 .contacts__ways{
 	display: flex;
 	flex-direction: column;
+	width: 70%;
+	margin-left: 15%;
 }
 
 .contacts__ways h3 {
@@ -604,11 +606,6 @@ h1:hover{
 	display: flex;
 	justify-content: space-between;
 }
-.contacts__ways__address{
-	width: 70%;
-	margin-left: 15%;	
-}
-
 
 
 
@@ -625,6 +622,30 @@ h1:hover{
 .separated{
 	margin-top: 100px;
 }
+
+.contactform input, .contactform textarea {
+	border: 0;
+	background-color: #68a097;
+	font-size: 16px;
+	font-family: Lato;
+	color: rgb(130, 200, 189);
+	line-height: 1.313;
+}
+.contactform input{
+	width: 47%;
+}
+
+
+.contactform textarea{
+	width: 100%;
+}
+
+.contactform__userinfo{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
 
 @media (min-width: 640px){
 	.gallery__item__img::after {
@@ -750,11 +771,12 @@ h1:hover{
 		flex-direction: row;
 	}
 	.contacts__ways__address{
-		width: 50%;
 		margin-left: 0;
+		margin-right: 1%;
 	}
 	.contacts__ways__contactform{
-		width: 50%;
+		
+		margin-left: 1%;
 	}
 
 }
