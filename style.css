@@ -566,7 +566,7 @@ h1:hover{
 
 .contacts{
 	background-color: #75b4aa;
-	min-height: 200px;
+	padding-bottom: 70px;
 }
 
 .contacts__text {
@@ -605,9 +605,12 @@ h1:hover{
 .contacts__ways__addresswrap{
 	display: flex;
 	justify-content: space-between;
+	
 }
 
-
+.contacts__ways__addressmap{
+	width: 50%;
+}
 
 .contacts__ways p {
 	text-align: left;
@@ -623,29 +626,49 @@ h1:hover{
 	margin-top: 100px;
 }
 
-.contactform input, .contactform textarea {
+.contactform__wrap{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.contactform__input {
 	border: 0;
 	background-color: #68a097;
 	font-size: 16px;
 	font-family: Lato;
 	color: rgb(130, 200, 189);
 	line-height: 1.313;
-}
-.contactform input{
-	width: 47%;
+	border-radius: 4px;
 }
 
+.contactform__input:focus{
+	background-color: #f6f6f6;
+	color: #b5b5b5;
+}
 
-.contactform textarea{
+.contactform__question{
 	width: 100%;
 }
 
-.contactform__userinfo{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+.contactform__submitbtn{
+	font-size: 26px;
+	font-family: Lato;
+	color: rgb(255, 255, 255);
+	background-color: #df5c64;
+	border: 0;
+	cursor: pointer;
+	border-radius: 4px;
+	border-bottom: 4px solid #c8535a;
+	margin-top: 10px;
+	padding: 2px 60px 2px 60px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
+.contactform__submitbtn:hover{
+	opacity: 0.7;
+}
 
 @media (min-width: 640px){
 	.gallery__item__img::after {
@@ -773,10 +796,12 @@ h1:hover{
 	.contacts__ways__address{
 		margin-left: 0;
 		margin-right: 1%;
+		width: 49%;
 	}
 	.contacts__ways__contactform{
 		
-		margin-left: 1%;
+		margin-left: 10px;
+		width: 50%;
 	}
 
 }
