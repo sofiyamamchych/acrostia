@@ -605,11 +605,12 @@ h1:hover{
 .contacts__ways__addresswrap{
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column-reverse;
 	
 }
 
 .contacts__ways__addressmap{
-	width: 50%;
+	width: 100%;
 }
 
 .contacts__ways p {
@@ -628,8 +629,7 @@ h1:hover{
 
 .contactform__wrap{
 	display: flex;
-	justify-content: space-between;
-	width: 100%;
+	flex-direction: column;
 }
 
 .contactform__input {
@@ -640,6 +640,7 @@ h1:hover{
 	color: rgb(130, 200, 189);
 	line-height: 1.313;
 	border-radius: 4px;
+	margin-bottom: 4px;
 }
 
 .contactform__input:focus{
@@ -647,8 +648,14 @@ h1:hover{
 	color: #b5b5b5;
 }
 
+.contactform__input__name, .contactform__input__mail{
+	padding: 5px 3px 6px 14px;
+}
+
+
 .contactform__question{
-	width: 100%;
+	width: 94%;
+	padding: 3%;
 }
 
 .contactform__submitbtn{
@@ -674,6 +681,13 @@ h1:hover{
 	.gallery__item__img::after {
 		padding-top: calc(50% - 20vw);
 	}
+	.contacts__ways__addresswrap{
+		flex-direction: row;
+	}
+	.contacts__ways__addressmap{
+		width: 50%;
+	}
+
 }
 
 
@@ -804,6 +818,7 @@ h1:hover{
 		width: 50%;
 	}
 
+
 }
 
 
@@ -860,7 +875,20 @@ h1:hover{
 		padding-left: calc(50% - 3vw);
 	}
 
+	.contactform__wrap{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.contactform__input__name{
+		width: 45%;
+	}
+	.contactform__input__mail{
+		/*margin-left: 5%;*/
+		width: 45%;
+	}
+	
 
+		
 }
 
 @media (min-width: 1480px) {
