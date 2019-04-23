@@ -564,7 +564,7 @@ h1:hover{
 }
 
 .contacts{
-	background-color: #75b4aa;
+	background-color: #49b5ab;
 }
 
 .contacts__text {
@@ -595,7 +595,7 @@ h1:hover{
 }
 
 .contacts__ways h4 {
-	color: rgb(192, 223, 218);
+	color: #b3e0db;
 	font-size: 20px;
 	margin: 0; 
 }
@@ -632,7 +632,7 @@ h1:hover{
 
 .contactform__input {
 	border: 0;
-	background-color: #68a097;
+	background-color: #40a198;
 	font-size: 16px;
 	font-family: Lato;
 	color: rgb(130, 200, 189);
@@ -660,11 +660,11 @@ h1:hover{
 	font-size: 26px;
 	font-family: Lato;
 	color: rgb(255, 255, 255);
-	background-color: #df5c64;
+	background-color: #ff5c64;
 	border: 0;
 	cursor: pointer;
 	border-radius: 4px;
-	border-bottom: 4px solid #c8535a;
+	border-bottom: 4px solid #e5525a;
 	margin-top: 10px;
 	padding: 2px 60px 2px 60px;
 	text-transform: uppercase;
@@ -678,7 +678,7 @@ h1:hover{
 
 .contacts__soc{
 	width: 100%;
-	background-color: #68a097;
+	background-color: #40a198;
 	display: flex;
 	height: 150px;
 	justify-content: center;
@@ -687,7 +687,7 @@ h1:hover{
 
 .contacts__soc__item{
 	margin: 0 1%;
-	background-color: #82c7bc;
+	background-color: #53c8bd;
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;

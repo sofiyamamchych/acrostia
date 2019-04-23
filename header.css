@@ -97,7 +97,7 @@
     }
 
     .contacts__header li a:hover{
-        background-color: #82c8bd;
+        background-color: #52c9be;
     }
 
     .header .menu-btn:checked ~ .menu {
