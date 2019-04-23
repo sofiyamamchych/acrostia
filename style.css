@@ -126,7 +126,6 @@ h1:hover{
 	margin-top: -51px;
 	min-height: 200px;
 	padding-top: 67px;
-	padding-bottom: 70px;
 }
 
 .services__header{
@@ -566,7 +565,6 @@ h1:hover{
 
 .contacts{
 	background-color: #75b4aa;
-	padding-bottom: 70px;
 }
 
 .contacts__text {
@@ -615,7 +613,7 @@ h1:hover{
 
 .contacts__ways p {
 	text-align: left;
-	line-height: 1;
+	line-height: 0.5;
 	color: white;
 }
 
@@ -671,10 +669,54 @@ h1:hover{
 	padding: 2px 60px 2px 60px;
 	text-transform: uppercase;
 	font-weight: bold;
+	margin-left: calc(50% - 97px);
 }
 
 .contactform__submitbtn:hover{
 	opacity: 0.7;
+}
+
+.contacts__soc{
+	width: 100%;
+	background-color: #68a097;
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.contacts__soc__item{
+	margin: 0 1%;
+	background-color: #82c7bc;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.contacts__soc__item img{
+	width: 40px;
+}
+
+.contacts__soc__item__fb img{
+	width: 22px;
+	padding: 15px 0 0 20px;
+}
+
+.contacts__soc__item__tw img{
+	padding: 17px 0 0 15px;	
+}
+
+.contacts__soc__item__gplus img{
+	padding: 15px 0 0 17px;
+}
+
+.contacts__soc__item__ln img{
+	width: 37px;
+	padding: 16px 0 0 17px;
+}
+.contacts__soc__item:hover{
+	opacity: 0.6;
 }
 
 @media (min-width: 640px){
