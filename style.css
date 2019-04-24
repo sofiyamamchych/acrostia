@@ -106,15 +106,17 @@ h1:hover{
 }
 
 .hero__headline__right{
-	font-size: 80px;
+	font-size: 87px;
     font-family: Lato-Heavy;
     color: rgb(116, 199, 213);
     line-height: 1;
   	text-align: right;
-  	letter-spacing: -5px;
-  	line-height: 0.8;
-  	margin-right: 10px;
+  	line-height: 0.85;
+  	letter-spacing: -10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
+  	
 
 .hero__headline:hover{
 	opacity: 0.7;
@@ -805,11 +807,14 @@ h1:hover{
 		opacity: 1;
 	}
 	
-	.hero__headline{
+	.hero__headline {
 		background-color: rgba(255,255,255,0.4);
-		padding: 26px 0 26px 0px;
+		padding: 23px 0 0 7px;
 		border-radius: 4px;
 		width: 50%;
+		margin: -24px 0 0 0;
+		height: 127px;
+		box-sizing: border-box;
 	}
 	
 	.services__examples{
@@ -881,15 +886,19 @@ h1:hover{
 
 
 @media (min-width: 1005px){
+	.hero__headline{
+		height: 169px;
+	}
+
 	.hero__headline__left {
 	  	line-height: 0.967;
 	  	text-align: right;
 	  	width: 50%;
-	  	font-size: 60px;
+	  	font-size: 47px;
 	}
 
 	.hero__headline__right{
-		font-size: 130px;
+		font-size: 115px;
 	  	text-align: right;
 	  	letter-spacing: -5px;
 	  	line-height: 0.8;
@@ -905,6 +914,10 @@ h1:hover{
 }
 
 @media (min-width: 1080px){
+
+	.hero__headline__right{
+		font-size: 138px;
+	}
 
 	.gallery__item{
 		width: 15.9vw;
@@ -979,6 +992,18 @@ h1:hover{
 }
 
 @media (min-width: 1600px){
+
+	.hero__headline {
+		padding: 23px 0 0 25px;
+	}
+	
+	.hero__headline__left{
+		font-size: 60px;
+	}
+
+	.hero__headline__right{
+		font-size: 130px;
+	}
 
 	.gallery__item__img::after {
 		padding-top: calc(50% - 3.8vw);
