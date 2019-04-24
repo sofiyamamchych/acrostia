@@ -663,11 +663,6 @@ h1:hover{
 }
 
 .contactform__question{
-	width: 94%;
-}
-
-
-.contactform__question{
 	width: 100%;
 	padding: 10px 18px 10px 18px;
 	margin-top: 16px;
@@ -873,6 +868,7 @@ h1:hover{
 		margin-left: 3.5%;
 		width: 48%;
 	}
+
 }
 
 
@@ -951,6 +947,10 @@ h1:hover{
 
 	.separated{
 		margin-top: 84px;
+	}
+
+	.contactform__question{
+		width: 93%;
 	}
 
 		
