@@ -81,7 +81,7 @@
     }
 
     .header li a:hover {
-        background-color: #74c7d5;
+        background-color: #22c8d7;
         border-radius: 0 0 4px 4px;
     }
     
@@ -133,8 +133,7 @@
         float: left;
     }
     .header li a {
-       /* margin-right: 14px;*/
-       padding: 38px 14px 8px 5px;
+        padding: 38px 10px 8px 10px;
         
     }
     .header .menu {
@@ -149,8 +148,9 @@
 
 @media (min-width: 1005px){
     .header li a {
-        padding: 38px 24px 13px 25px;
+        padding: 38px 26px 13px 26px;
     }
+
 }
 
 /*OVERLAY*/
