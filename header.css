@@ -75,25 +75,50 @@
 
 
 @media (min-width: 800px) {
+    .header__active{
+        background-color: #22c8d7;
+        border-radius: 0 0 4px 4px;
+    }
+
     .header li a:hover {
         background-color: #74c7d5;
         border-radius: 0 0 4px 4px;
     }
+    
+    .services__header__active{
+        background-color: #ff5c64;
+        border-radius: 0 0 4px 4px;
+    }
 
     .services__header li a:hover{
-       background-color: #df5c64;
+       background-color: #ff5c64;
+    }
+    
+    .about__header__active{
+        background-color: #9b7890;
+        border-radius: 0 0 4px 4px;
     }
 
     .about__header li a:hover{
-       background-color: #91778e;
+       background-color: #9b7890;
     }
     
     .about__header{
         margin-top: -1px;
     }
 
+    .work__header__active{
+        background-color: #8ecb66;
+        border-radius: 0 0 4px 4px;        
+    }
+
     .work__header li a:hover{
-        background-color: #a1ca6c;
+        background-color: #8ecb66;
+    }
+
+    .contacts__header__active{
+        background-color: #52c9be;
+        border-radius: 0 0 4px 4px; 
     }
 
     .contacts__header li a:hover{
