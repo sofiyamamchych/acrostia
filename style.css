@@ -577,8 +577,8 @@ h1:hover{
 	margin: 0;
 	padding-top: 193px;
 	letter-spacing: 1px;
-	text-align: left;
-	margin-left: calc(50% - 208px);
+	text-align: center;
+	font-size: 9vw;
 }
 
 .contacts__text p{
@@ -741,7 +741,9 @@ h1:hover{
 	.contacts__soc__item{
 		margin: 20px;
 	}
-
+	.contacts__text h1{
+		font-size: 60px;
+	}
 }
 
 
