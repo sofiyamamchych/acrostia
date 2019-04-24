@@ -660,6 +660,7 @@ h1:hover{
 .contactform__input__name, .contactform__input__mail{
 	padding: 8px 18px 10px 18px;
 	width: 100%;
+	box-sizing: border-box;
 }
 
 .contactform__question{
@@ -667,6 +668,7 @@ h1:hover{
 	padding: 10px 18px 10px 18px;
 	margin-top: 16px;
 	height: 140px;
+	box-sizing: border-box;
 }
 
 .contactform__submitbtn{
@@ -869,6 +871,10 @@ h1:hover{
 		width: 48%;
 	}
 
+	.contactform__input{
+		box-sizing: content-box;
+	}
+
 }
 
 
@@ -934,7 +940,6 @@ h1:hover{
 		margin-right: 1%;
 	}
 	.contactform__input__mail{
-		/*margin-left: 5%;*/
 		width: 41%;
 	}
 
