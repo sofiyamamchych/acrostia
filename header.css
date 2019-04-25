@@ -11,6 +11,7 @@
     font-size: 18px;
     font-family: Lato;
     color: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
 .header ul {

@@ -23,15 +23,15 @@ function redImg(container) {
     var photo = $(container).find('.teammember__photo__img');
     photo.attr('src', 'img/team-member-active.svg');
     var fbIcon = $(container).find('.social__fb');
-    fbIcon.css({'background':'#4f689e'});
+    fbIcon.css({'background':'#4068a1'});
     var twIcon = $(container).find('.social__tw');
-    twIcon.css({'background':'#74c7d5'});
+    twIcon.css({'background':'#22c8d7'});
     var gplusIcon = $(container).find('.social__gplus');
-    gplusIcon.css({'background':'#df5c64'});
+    gplusIcon.css({'background':'#ff5c64'});
     var lnIcon = $(container).find('.social__ln');
-    lnIcon.css({'background':'#3e61af'});
+    lnIcon.css({'background':'#2061b3'});
     var imgBorder = $(container).find('.teammember__photo');
-    imgBorder.css({'border': '4px solid #df5c64'});
+    imgBorder.css({'border': '4px solid #ff5c64'});
     container.style.background = "#524350";
 }
 
