@@ -69,6 +69,10 @@ h1:hover{
 	cursor: default;
 }
 
+.hero{
+	margin-bottom: -30px;
+}
+
 .hero__carousel{
 	display: flex;
 	width: 100%;
@@ -125,9 +129,9 @@ h1:hover{
 
 .services{
 	background-color: #b24a50;
-	margin-top: -51px;
+	/*margin-top: -51px;*/
 	min-height: 200px;
-	padding-top: 67px;
+	padding-top: 46px;
 }
 
 .services__header{
@@ -996,7 +1000,7 @@ h1:hover{
 	.hero__headline {
 		padding: 23px 0 0 25px;
 	}
-	
+
 	.hero__headline__left{
 		font-size: 60px;
 	}
