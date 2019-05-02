@@ -52,4 +52,5 @@ function normalImg(container) {
 
 }
 
+$("#commentForm").validate();
 

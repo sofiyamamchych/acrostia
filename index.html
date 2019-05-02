@@ -11,6 +11,7 @@
     <script type="text/javascript" src="slick/slick.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
 </head>
@@ -308,12 +309,12 @@
     		</div>
     		<div class="contacts__ways__contactform">
 				<h3>Ask a question</h3>
-				<form action="" class="contactform">
+				<form action="" class="contactform" id="commentForm">
 					<div class="contactform__wrap">
-						<input type="text" name="username" placeholder="Name" class="contactform__input contactform__input__name">
-				    	<input type="text" name="email" placeholder="E-mail" class="contactform__input contactform__input__mail">
+						<input type="text" name="username" placeholder="Name" class="contactform__input contactform__input__name" required>
+				    	<input type="email" name="email" placeholder="E-mail" class="contactform__input contactform__input__mail" required>
 			    	</div>
-					<textarea name="question" rows="10" cols="30" placeholder="Your question" class="contactform__input contactform__question"></textarea>
+					<textarea name="question" rows="10" cols="30" placeholder="Your question" class="contactform__input contactform__question" required></textarea>
 	    			<input type="submit" value="Send" class="contactform__submitbtn">
 				</form> 
     		</div>

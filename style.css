@@ -739,6 +739,11 @@ h1:hover{
 	opacity: 0.6;
 }
 
+.error{
+	color: purple;
+	font-family: Lato;
+}
+
 @media (min-width: 640px){
 	.gallery__item__img::after {
 		padding-top: calc(50% - 20vw);
