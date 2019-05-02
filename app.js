@@ -6,7 +6,7 @@
         dots: true,
         prevArrow: $('.hero__carousel_prev'),
         nextArrow: $('.hero__carousel_next'),
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 3000,
     });
   });
