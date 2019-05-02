@@ -662,6 +662,11 @@ h1:hover{
 	color: #b5b5b5;
 }
 
+
+::placeholder {
+  color: rgb(130, 200, 189);
+}
+
 .contactform__input__name, .contactform__input__mail{
 	padding: 8px 18px 10px 18px;
 	width: 100%;
@@ -990,6 +995,7 @@ h1:hover{
 
 	#email-error, #username-error{
 		margin-left: 4px;
+		margin-right: 4px;
 	}
 		
 	#question-error{
