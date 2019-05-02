@@ -744,6 +744,8 @@ h1:hover{
 	font-family: Lato;
 }
 
+
+
 @media (min-width: 640px){
 	.gallery__item__img::after {
 		padding-top: calc(50% - 20vw);
@@ -979,6 +981,19 @@ h1:hover{
 
 	.contactform__question{
 		width: 93%;
+	}
+
+	#email-error, #username-error, #question-error{
+		height: 10px;
+		font-size: 10px;
+	}
+
+	#email-error, #username-error{
+		margin-left: 4px;
+	}
+		
+	#question-error{
+		margin-right: 20%;
 	}
 
 		
