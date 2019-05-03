@@ -629,6 +629,11 @@ h1:hover{
 	overflow: hidden;
 }
 
+.contacts__ways__addressmap__iframe{
+	width: 100%;
+	height: 220px;
+}
+
 .contacts__ways p {
 	text-align: left;
 	line-height: 0.5;
